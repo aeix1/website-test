@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header, .content-about {
+    background-color: rgb(154, 102, 123);
+}
+
+.header-name {
+    color: rgb(230,230,230);
+    margin: 0;
+    padding: .3em;
+    padding-bottom: 0;
+    font-size: 300%;
+}
+
+.header-text {
+    color: rgb(180, 180, 180);
+    list-style-type:none;
+    text-align: right;
+    padding: .5em;
+    margin: 0;
+}
+
+.tiny-info {
+    margin: 0;
+    text-align: center;
+    color: rgba(210, 210, 210, 1);
+    word-spacing: .3em; /*TODO: ask em: why doesnt this work with % for rescaling? */
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+.content-links {
+    background-color: rgba(3,0,33,1);
+}
+
+.content-links a {
+    text-decoration: none;
+    color: rgba(100, 100, 100, 0.5);
+    font-size: 6em;
+    font-weight: bold;
+    margin: .5em;
+}
+
+/* TODO: probably a better way of writing this*/
+/* make images appear when hovering over line*/
+.cv:hover {
+    background-image: url("images/cv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
+.mphys1:hover {
+    background-image: url("images/mphys1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
+.presentation1:hover {
+    background-image: url("images/mphys_presentation_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
+.presentation2:hover {
+    background-image: url("images/mphys_presentation_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
+.mphys2:hover {
+    background-image: url("images/mphys2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
+.epq:hover {
+    background-image: url("images/epq.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
+/*make text change color on hover for readability*/
+.cv:hover a, .mphys1:hover a, .mphys2:hover a, .presentation1:hover a, .presentation2:hover a, .epq:hover a{
+    color: rgba(163, 191, 245, 0.8);
+}
+
+/*TODO: probably a better way of getting rid of about and footer margins to join the purple bit*/
+.content-about p, .content-about h3, footer h3, footer ul{
+    margin: 0;
+}
+
+.content-about h3 {
+    padding: 1.5em;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 3em
+}
+
+.content-about p {
+    text-align: center;
+    padding: 10%;
+    padding-top: 3em;
+    font-size: 130%;
+}
+
+.content-about a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.main-footer {
+    background-image: url("images/marbled_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: rgba(255,255,255, 0.6);
+    padding: 5em;
+    padding-bottom: 3em;
+}
+
+.main-footer li {
+    display: inline;
+    padding: 0 2%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.main-footer ul{
+    text-align: center;
+}
