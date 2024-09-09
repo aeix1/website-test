@@ -101,8 +101,16 @@ html, body {
     background-blend-mode: multiply;
 }
 
+.poster:hover {
+    background-image: url("images/poster.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgba(3, 0, 33, 0.8);
+    background-blend-mode: multiply;
+}
+
 /*make text change color on hover for readability*/
-.cv:hover a, .mphys1:hover a, .mphys2:hover a, .presentation1:hover a, .presentation2:hover a, .epq:hover a{
+.cv:hover a, .mphys1:hover a, .mphys2:hover a, .presentation1:hover a, .presentation2:hover a, .epq:hover a, .poster:hover a{
     color: rgba(163, 191, 245, 0.8);
 }
 
