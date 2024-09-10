@@ -34,7 +34,7 @@ html, body {
     margin: 0;
     text-align: center;
     color: rgba(210, 210, 210, 1);
-    word-spacing: .3em; /*TODO: ask em: why doesnt this work with % for rescaling? */
+    word-spacing: .3em;
     font-weight: lighter;
     font-size: 0.8em;
 }
@@ -51,8 +51,8 @@ html, body {
     margin: .5em;
 }
 
-/* TODO: probably a better way of writing this*/
 /* make images appear when hovering over line*/
+/*TODO: make images very tall so they work for rescaling :)) */
 .cv:hover {
     background-image: url("images/cv.jpg");
     background-repeat: no-repeat;
@@ -114,7 +114,6 @@ html, body {
     color: rgba(163, 191, 245, 0.8);
 }
 
-/*TODO: probably a better way of getting rid of about and footer margins to join the purple bit*/
 .content-about p, .content-about h3, footer h3, footer ul{
     margin: 0;
 }
@@ -127,7 +126,9 @@ html, body {
 }
 
 .content-about p {
-    text-align: center;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
     padding: 10%;
     padding-top: 3em;
     font-size: 130%;
