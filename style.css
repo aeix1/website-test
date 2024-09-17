@@ -10,7 +10,7 @@ html, body {
     padding: 0;
 }
 
-.main-header, .content-about {
+.main-header, .content {
     background-color: rgb(154, 102, 123);
 }
 
@@ -114,18 +114,18 @@ html, body {
     color: rgba(163, 191, 245, 0.8);
 }
 
-.content-about p, .content-about h3, footer h3, footer ul{
+.content p, .content h3, footer h3, footer ul{
     margin: 0;
 }
 
-.content-about h3 {
+.content h3 {
     padding: 1.5em;
     padding-bottom: 0;
     text-align: center;
     font-size: 3em
 }
 
-.content-about p {
+.content p {
     width: 90%;
     margin: auto;
     text-align: justify;
@@ -134,7 +134,7 @@ html, body {
     font-size: 130%;
 }
 
-.content-about a {
+.content a {
     text-decoration: none;
     font-weight: bolder;
     color: black;
