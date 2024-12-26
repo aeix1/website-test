@@ -1,3 +1,4 @@
+/*import font and deal with global stuff*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -10,11 +11,17 @@ html, body {
     padding: 0;
 }
 
-.main-header, .content {
+
+/*deals with headers*/
+.alsd-header-bg{
     background-color: rgb(154, 102, 123);
 }
 
-.header-name {
+.lvsnd-header-bg {
+    background-color: rgb(0, 0, 0);
+}
+
+.def-header-name {
     color: rgb(230,230,230);
     margin: 0;
     padding: .3em;
@@ -22,7 +29,7 @@ html, body {
     font-size: 300%;
 }
 
-.header-text {
+.def-header-text {
     color: rgb(180, 180, 180);
     list-style-type:none;
     text-align: right;
@@ -39,11 +46,16 @@ html, body {
     font-size: 0.8em;
 }
 
-.content-links {
+
+/*deals with links on alasdair page
+there is probably a better way of writing the main chunk of this to avoid all the repition
+but I would still need individual classes to ensure the correct bg image is shown so ehhhh*/
+
+.alasdair-links {
     background-color: rgba(3,0,33,1);
 }
 
-.content-links a {
+.alasdair-links a {
     text-decoration: none;
     color: rgba(100, 100, 100, 0.5);
     font-size: 6em;
@@ -51,8 +63,6 @@ html, body {
     margin: .5em;
 }
 
-/* make images appear when hovering over line*/
-/*TODO: make images very tall so they work for rescaling :)) */
 .cv:hover {
     background-image: url("images/cv.jpg");
     background-repeat: no-repeat;
@@ -109,9 +119,17 @@ html, body {
     background-blend-mode: multiply;
 }
 
-/*make text change color on hover for readability*/
 .cv:hover a, .mphys1:hover a, .mphys2:hover a, .presentation1:hover a, .presentation2:hover a, .epq:hover a, .poster:hover a{
     color: rgba(163, 191, 245, 0.8);
+}
+
+
+/*deals with main text on pages*/
+.alsd-content-bg {
+    background-color: rgb(154, 102, 123);
+}
+
+lvsnd-content-bg {
 }
 
 .content p, .content h3, footer h3, footer ul{
@@ -140,27 +158,30 @@ html, body {
     color: black;
 }
 
-.main-footer {
+.alsd-footer-bg {
     background-image: url("images/marbled_background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: rgba(255,255,255, 0.6);
+}
+
+.def-footer {
     padding: 5em;
     padding-bottom: 3em;
 }
 
-.main-footer li {
+.def-footer li {
     display: inline;
     padding: 0 2%;
     font-weight: bolder;
     font-size: larger;
 }
 
-.main-footer a {
+.def-footer a {
     text-decoration: none;
     color: rgba(255,255,255, 0.6);
 }
 
-.main-footer ul{
+.def-footer ul{
     text-align: center;
 }
