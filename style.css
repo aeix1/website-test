@@ -11,12 +11,11 @@ html, body {
     padding: 0;
 }
 
-
-/*deals with headers*/
-.alsd-header-bg{
+.alsd-main-bg-colour {
     background-color: rgb(154, 102, 123);
 }
 
+/*deals with headers*/
 .lvsnd-header-bg {
     background-color: rgb(0, 0, 0);
 }
@@ -125,13 +124,6 @@ but I would still need individual classes to ensure the correct bg image is show
 
 
 /*deals with main text on pages*/
-.alsd-content-bg {
-    background-color: rgb(154, 102, 123);
-}
-
-lvsnd-content-bg {
-}
-
 .content p, .content h3, footer h3, footer ul{
     margin: 0;
 }
