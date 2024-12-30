@@ -144,7 +144,7 @@ but I would still need individual classes to ensure the correct bg image is show
     font-size: 1.5em;
 }
 
-.sound .broadway li{
+.sound .broadway{
     text-align: center;
     text-decoration: none;
     color: black;
